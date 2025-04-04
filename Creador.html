@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totoro - Un Mundo Mágico</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #6a994e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .content {
+            flex: 70%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 30%;
+            background: #d9d9d9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6a994e;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            font-size: 3em;
+            text-shadow: 2px 2px #4a4a4a;
+        }
+
+        h2 {
+            color: #4a8a3f;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .img-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        marquee {
+            font-size: 20px;
+            color: #ff6600;
+            font-weight: bold;
+            background-color: #2e7d32;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #4a8a3f;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #6a994e;
+            color: white;
+        }
+
+        ul {
+            list-style-type: square;
+            color: #333;
+        }
+
+        a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #1b5e20;
+            text-decoration: underline;
+        }
+
+        .animated {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="animated">¡Bienvenido al Mundo de Totoro!</h1>
+        <nav>
+            <a href="Inicio.html">Inicio</a>
+            <a href="historia.html">Historia</a>
+            <a href="pelicula.html">Película</a>
+            <a href="Creador.html">Creador</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <marquee behavior="scroll" direction="left">¡Sumérgete en la magia de Totoro y descubre el bosque encantado! 🌲✨</marquee>
+
+    <main>
+        <div class="content">
+            <h2>Hayao Miyazaki</h2>
+            <h2>Infancia y juventud</h2>
+            <p>Hayao Miyazaki nació el 5 de enero de 1941 en Tokio, Japón, en una época marcada por la Segunda Guerra Mundial. Su padre, Katsuji Miyazaki, era director de Miyazaki Airplane, una empresa que fabricaba piezas para los aviones de combate japoneses, específicamente para los cazas Mitsubishi A6M Zero. Esta cercanía con la aviación influyó profundamente en el joven Hayao, algo que se reflejaría en muchas de sus películas, donde los aviones y el vuelo tienen un papel importante (Porco Rosso, El castillo en el cielo, El viento se levanta).</p>
+            <P>Durante la guerra, la familia Miyazaki tuvo que evacuar Tokio debido a los bombardeos y se trasladó a la prefectura de Tochigi. Estos años marcaron su visión del mundo y su aprecio por la naturaleza, temas recurrentes en su obra. Desde pequeño mostró un gran interés por la animación y el manga, influenciado por los dibujos de Osamu Tezuka, considerado el "padre del manga moderno".</P>
+            <div class="img-container">
+                <img src="img/biografia.webp">
+            </div>  
+
+            <h2>Inicios en la animación</h2>
+            <p>Miyazaki estudió Ciencias Políticas y Economía en la Universidad de Gakushuin, aunque su verdadera pasión siempre fue la animación. En 1963, comenzó a trabajar en Toei Animation, uno de los estudios de animación más importantes de Japón en ese momento. Allí participó en la producción de varias películas y series de televisión, trabajando en la animación, los guiones y el diseño de escenarios.
+
+                Uno de sus primeros trabajos importantes fue en Hols, el príncipe del sol (1968), donde fue animador clave. Durante este tiempo, conoció a Isao Takahata, con quien desarrollaría una gran amistad y colaboración profesional a lo largo de los años.</p>
+                <div class="img-container">
+                    <img src="img/bio1.jpg">
+                </div>
+            <h2>Educación y primeros trabajos</h2>
+            <P>Miyazaki estudió Ciencias Políticas y Economía en la Universidad de Gakushuin, aunque su verdadera pasión siempre fue la animación. En 1963, comenzó a trabajar en Toei Animation, uno de los estudios de animación más importantes de Japón en ese momento. Allí participó en la producción de varias películas y series de televisión, trabajando en la animación, los guiones y el diseño de escenarios.
+
+                Uno de sus primeros trabajos importantes fue en Hols, el príncipe del sol (1968), donde fue animador clave. Durante este tiempo, conoció a Isao Takahata, con quien desarrollaría una gran amistad y colaboración profesional a lo largo de los años.</P>
+                <div class="img-container">
+                    <img src="img/bio2.jpg">
+                </div>
+                <h2>Trayectoria en la animación</h2>
+                <p>Después de su paso por Toei, Miyazaki trabajó en varios estudios de animación, como A-Pro y Nippon Animation, participando en series como Conan, el niño del futuro (1978). En 1979 dirigió su primera película, Lupin III: El castillo de Cagliostro, que aunque no fue un éxito inmediato, con el tiempo se convirtió en un clásico del cine de animación.
+
+                    En 1982, publicó el manga Nausicaä del Valle del Viento, que fue un gran éxito y le permitió dirigir la película del mismo nombre en 1984. Este filme fue un punto de inflexión en su carrera y sentó las bases para la creación de Studio Ghibli.</p>
+                    <div class="img-container">
+                        <img src="img/bio5.jpg">
+                    </div>
+                    <h2>La creación de Studio Ghibli</h2>
+                <p>En 1985, junto con Isao Takahata y Toshio Suzuki, fundó Studio Ghibli, un estudio de animación que revolucionaría la industria. Sus primeras películas, como Laputa: El castillo en el cielo (1986), Mi vecino Totoro (1988) y Kiki: Entregas a domicilio (1989), se convirtieron en clásicos de la animación japonesa.</p>
+                <div class="img-container">
+                    <img src="img/bio7.jpg">
+                </div>
+                <h2>El reconocimiento mundial</h2>
+               <p>En los años 90, Studio Ghibli produjo películas cada vez más ambiciosas. La princesa Mononoke (1997) fue un éxito rotundo en Japón y llevó a Miyazaki a la fama internacional. Sin embargo, su mayor logro llegó en 2001 con El viaje de Chihiro, que ganó el Óscar a la Mejor Película de Animación en 2003, convirtiéndose en la primera película japonesa en lograrlo.
+
+                Otros éxitos incluyen El castillo ambulante (2004) y Ponyo en el acantilado (2008).</p>
+                <div class="img-container">
+                    <img src="img/bio4.jpg">
+                </div>
+                <h2>Retiro y regreso</h2>
+                <p>Miyazaki anunció su retiro varias veces, pero siempre regresó a la animación. En 2013, dirigió El viento se levanta, que parecía ser su última película, pero en 2017 decidió volver a trabajar en un nuevo proyecto. En 2023, estrenó El niño y la garza, demostrando que su pasión por la animación sigue intacta.</p>
+                <div class="img-container">
+                    <img src="img/bio6.jpg">
+                </div>
+                <h2>Legado</h2>
+                <p>Miyazaki es considerado uno de los más grandes cineastas de animación de todos los tiempos. Su trabajo ha influenciado a generaciones de artistas y su estilo, caracterizado por la belleza visual, la profundidad temática y la sensibilidad hacia la naturaleza y la humanidad, sigue cautivando al público de todo el mundo.</p>
+            </div>
+        <aside class="sidebar">
+            <h2>Datos Curiosos</h2>
+            <p><ul>
+                <li>Totoro es considerado la mascota oficial de Studio Ghibli.</li>
+                <li>El personaje de Totoro está inspirado en animales reales, como un oso y un mapache.</li>
+                <li>La película "Mi vecino Totoro" se estrenó en 1988 y se convirtió en un clásico del cine de animación.</li>
+                <li>Totoro aparece en otros filmes de Studio Ghibli, como "Kiki: Entregas a domicilio".</li>
+                <li>El famoso "Gatobús" es otro de los personajes icónicos de la película, un transporte mágico que puede volar.</li>
+            </ul>
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Milly Calix III BTP ROBOTICA © 2025</p>
+    </footer>
+
+</body>
+</html>

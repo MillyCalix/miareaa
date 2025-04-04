@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totoro - Un Mundo Mágico</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #6a994e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .content {
+            flex: 70%;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            flex: 30%;
+            background: #d9d9d9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6a994e;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            font-size: 3em;
+            text-shadow: 2px 2px #4a4a4a;
+        }
+
+        h2 {
+            color: #4a8a3f;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .img-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        marquee {
+            font-size: 20px;
+            color: #ff6600;
+            font-weight: bold;
+            background-color: #2e7d32;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #4a8a3f;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #6a994e;
+            color: white;
+        }
+
+        ul {
+            list-style-type: square;
+            color: #333;
+        }
+
+        a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #1b5e20;
+            text-decoration: underline;
+        }
+
+        .animated {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="animated">¡Bienvenido al Mundo de Totoro!</h1>
+        <nav>
+            <a href="Inicio.html">Inicio</a>
+            <a href="historia.html">Historia</a>
+            <a href="pelicula.html">Película</a>
+            <a href="Creador.html">Creador</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <marquee behavior="scroll" direction="left">¡Sumérgete en la magia de Totoro y descubre el bosque encantado! 🌲✨</marquee>
+
+    <main>
+        <div class="content">
+            <h2>Historia</h2>
+            <p>Totoro es un espíritu del bosque y el personaje principal de Mi vecino Totoro (*Tonari no Totoro*, 1988), película dirigida por Hayao Miyazaki y producida por Studio Ghibli.<br>Representa la conexión con la naturaleza, la infancia y la magia oculta en lo cotidiano.  
+
+                Su diseño combina características de varios animales, como un oso, un mapache y un búho, dándole una apariencia amigable y mística. Aunque no habla, se comunica con sonidos guturales y expresiones corporales. <br>
+                
+                Totoro habita en los bosques y aparece en momentos clave para brindar apoyo y protección. Es capaz de volar utilizando un trompo mágico y hacer crecer árboles con solo mover sus brazos. Su imagen se ha convertido en un símbolo de Studio Ghibli y en uno de los personajes más icónicos de la animación japonesa.</p>
+
+            <div class="img-container">
+                <img src="img/img3.jpg">
+                <img src="img/img2.jpg">
+            </div>  
+            <h2>Características de Totoro</h2>
+            <ul>
+                <li>Es un espíritu del bosque.</li>
+                <li>Tiene una apariencia amigable.</li>
+                <li>Se comunica mediante sonidos guturales.</li>
+                <li>Parece una mezcla entre un oso, un mapache y un búho.</li>
+            </ul>
+
+
+            <h2>Información de Totoro</h2>
+            <table>
+                <tr>
+                    <th>Característica</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>Gris con vientre blanco</td>
+                </tr>
+                <tr>
+                    <td>Habilidad</td>
+                    <td>Poder volar y hacer crecer árboles</td>
+                </tr>
+                <tr>
+                    <td>Personalidad</td>
+                    <td>Amable y protector</td>
+                </tr>
+            </table>
+
+        </div>
+        <aside class="sidebar">
+            <h2>Datos Curiosos</h2>
+            <p><ul>
+                <li>Totoro es considerado la mascota oficial de Studio Ghibli.</li>
+                <li>El personaje de Totoro está inspirado en animales reales, como un oso y un mapache.</li>
+                <li>La película "Mi vecino Totoro" se estrenó en 1988 y se convirtió en un clásico del cine de animación.</li>
+                <li>Totoro aparece en otros filmes de Studio Ghibli, como "Kiki: Entregas a domicilio".</li>
+                <li>El famoso "Gatobús" es otro de los personajes icónicos de la película, un transporte mágico que puede volar.</li>
+            </ul>
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Milly Calix III BTP ROBOTICA © 2025</p>
+    </footer>
+
+</body>
+</html>
